@@ -8,12 +8,14 @@ import Combat3 from './History/Combat3/Combat3';
 import Combat4 from './History/Combat4/Combat4';
 import Combat5 from './History/Combat5/Combat5';
 
+
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
           <div className="App">
+          <div class="ocean">
             <header>
               <Link to="/">Home</Link>
             </header>
@@ -27,6 +29,17 @@ class App extends Component {
           <Route exact path="/fight4" component={Combat4} />
           <Route exact path="/fight5" component={Combat5} />
         </div>
+        <div class="bubbles">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    </div>
       </Router>
     );
   }
