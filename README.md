@@ -17,7 +17,7 @@ ou si on veut ajouter toutes les modifs <br>
 "git add ."
 
 Commit les fichiers :<br>
-"git commit -m [MessageDeCommit]"
+"git commit -m feat([TrucOuOnTRavail]): [MESSAGE]"
 
 Push sur github :<br>
 "git push"<br>
