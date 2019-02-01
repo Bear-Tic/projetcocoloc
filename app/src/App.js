@@ -8,7 +8,6 @@ import Combat3 from './History/Combat3/Combat3';
 import Combat4 from './History/Combat4/Combat4';
 import Combat5 from './History/Combat5/Combat5';
 
-
 class App extends Component {
   render() {
     return (
