@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Introduction from './History/Introduction/Introduction';
 import PauseManger from './History/PauseManger/PauseManger';
@@ -16,13 +16,6 @@ class App extends Component {
           <div className="App">
             <header>
               <Link to="/">Home</Link>
-              <Link to="/introduction">Introduction</Link>
-              <Link to="/pause">Pause Manger</Link>
-              <Link to="/fight1">Combat1</Link>
-              <Link to="/fight2">Combat2</Link>
-              <Link to="/fight3">Combat3</Link>
-              <Link to="/fight4">Combat4</Link>
-              <Link to="/fight5">Combat5</Link>
             </header>
           </div>
           <Route path="/" component={Home} />
@@ -41,7 +34,7 @@ class App extends Component {
 
 const Home = () => {
   return(
-    <h1>home</h1>
+    <Fragment />
   )
 };
 
