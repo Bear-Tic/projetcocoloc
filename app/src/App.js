@@ -14,31 +14,28 @@ class App extends Component {
       <Router>
         <div>
           <div className="App">
-          <div class="ocean">
-            <header>
-              <Link to="/">Home</Link>
-            </header>
+            <p>coucou</p>
+            <div className="ocean" />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/introduction" component={Introduction} />
+            <Route exact path="/pause" component={PauseManger} />
+            <Route exact path="/fight1" component={Combat1} />
+            <Route exact path="/fight2" component={Combat2} />
+            <Route exact path="/fight3" component={Combat3} />
+            <Route exact path="/fight4" component={Combat4} />
+            <Route exact path="/fight5" component={Combat5} />
+            </div>
+            <div className="bubbles">
+              <span/>
+              <span/>
+              <span/>
+              <span/>
+              <span/>
+              <span/>
+              <span/>
+              <span/>
           </div>
-          <Route path="/" component={Home} />
-          <Route exact path="/introduction" component={Introduction} />
-          <Route exact path="/pause" component={PauseManger} />
-          <Route exact path="/fight1" component={Combat1} />
-          <Route exact path="/fight2" component={Combat2} />
-          <Route exact path="/fight3" component={Combat3} />
-          <Route exact path="/fight4" component={Combat4} />
-          <Route exact path="/fight5" component={Combat5} />
         </div>
-        <div class="bubbles">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    </div>
       </Router>
     );
   }

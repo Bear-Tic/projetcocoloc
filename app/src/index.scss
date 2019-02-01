@@ -4,8 +4,12 @@
 //imports
 @import '~bootstrap/scss/bootstrap';
 
+@import 'background';
+
 html, body, #root, .App{
   height: 100%;
 }
 
-@import 'background';
+.img{
+  width: 300px;
+}
