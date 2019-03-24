@@ -1,5 +1,15 @@
 # projetcocoloc
 
+Pour run le projet 
+
+Git clone https://github.com/SoulAjnin/projetcocoloc.git
+
+npm install
+
+npm start 
+
+
+
 Rappel des commandes et de comment on écrit dans git :
 
 Regarder s'il y a des changements sur des branches: <br>
