@@ -4,6 +4,8 @@ Pour run le projet
 
 Git clone https://github.com/SoulAjnin/projetcocoloc.git
 
+cd app
+
 npm install
 
 npm start 
