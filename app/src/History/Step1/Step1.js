@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, } from 'react';
 import poisson from '../../images/orsène-et-teq.png';
 import Template from '../../components/template';
 
@@ -6,12 +6,9 @@ class Introduction extends Component {
   
   choiceOne = () => {
     const { history } = this.props;
-    history.push(`/Step2a`)
+    history.push(`/Step1`)
   };
-  choiceTwo = () => {
-    const { history} = this.props;
-    history.push(`/Step2b`);
-  };
+  
   
   render() {
     return (

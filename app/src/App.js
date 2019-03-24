@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './History/Home/Home';
 import Introduction from './History/Introduction/Introduction';
 import Step0 from './History/Step0/Step0';

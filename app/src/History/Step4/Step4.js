@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component} from 'react';
 import poisson from '../../images/orsène-et-teq.png';
 import Template from '../../components/template';
 
