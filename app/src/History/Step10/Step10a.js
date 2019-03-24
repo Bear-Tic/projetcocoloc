@@ -19,7 +19,7 @@ class Introduction extends Component {
       image={poisson}
       reponse1="Revenir en arrière"
       choiceOne={this.choiceOne}
-      imageBig
+      imageSize="550px"
       />
     );
   }

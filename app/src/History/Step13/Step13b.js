@@ -17,7 +17,7 @@ class Introduction extends Component {
       image={poisson}
       reponse1="C'est la loose"
       choiceOne={this.choiceOne}
-      imageBig
+      imageSize="550px"
     
       />
     );
