@@ -1,31 +1,30 @@
 import React, { Component, Fragment } from 'react';
-import poisson from '../../images/poisson.jpg';
+import poisson from '../../images/1er-combat-sushi.png';
 import Template from '../../components/template';
 
-class Combat1 extends Component {
+class Introduction extends Component {
+  
   choiceOne = () => {
     const { history } = this.props;
-    history.push(`/fight1`)
+    history.push(`/Step3a`)
   };
   choiceTwo = () => {
     const { history} = this.props;
-    history.push(`/fight2`);
+    history.push(`/Step3b`);
   };
   
   render() {
     return (
-      <Template contexte=" 
-      de l'océan jusqu'au combat final... " 
-      question="Quel est ton nom ?"
+      <Template contexte="Le premier combat est face à un sushi" 
+      question="Comment vas-tu le battre ?"
       image={poisson}
-      reponse1="Tequila"
-      reponse2="TekTek"
+      reponse1="Je le mange"
+      reponse2="J'enlève le saumon"
       choiceOne={this.choiceOne}
       choiceTwo={this.choiceTwo}
       />
-      
     );
   }
 }
 
-export default Combat1;
+export default Introduction;
